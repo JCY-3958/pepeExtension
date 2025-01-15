@@ -4,7 +4,7 @@
     "description": "Copy pepe Faster",
     "version": "1.0",
     "action": {
-      "default_popup": "main.html",
-      "default_icon": "pepe.png"
+      "default_popup": "popup/popup.html",
+      "default_icon": "images/pepe.png"
     }
   }
