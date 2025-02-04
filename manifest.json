@@ -3,6 +3,11 @@
   "name": "Copy pepe",
   "description": "Copy pepe Faster",
   "version": "1.0",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
   "action": {
     "default_popup": "popup/popup.html",
     "default_icon": "images/pepe.png"
